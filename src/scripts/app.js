@@ -5,9 +5,10 @@ define([
     'jquery',
     'underscore',
     'backbone',
+    'backboneLocalStorage',
     'mustache',
     'router'
-], function ($, _, Backbone, Mustache, router) {
+], function ($, _, Backbone, Mustache, BackboneLocalStorage, router) {
 
     'use strict';
 

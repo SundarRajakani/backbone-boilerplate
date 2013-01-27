@@ -11,7 +11,9 @@
             "jquery": "vendors/jquery/jquery",
             "underscore": "vendors/underscore-amd/underscore",
             "backbone": "vendors/backbone-amd/backbone",
-            "mustache": "vendors/mustache/mustache"
+            "mustache": "vendors/mustache/mustache",
+            "backboneLocalStorage": "vendors/backbone.localStorage/backbone.localStorage",
+            "text": "vendors/requirejs-text/text"
         }
     });
 

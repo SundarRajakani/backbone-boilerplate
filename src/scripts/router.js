@@ -3,7 +3,7 @@
 
 define(["underscore", "backbone"], function (_, Backbone) {
 
-	'use strict';
+    'use strict';
 
      // Router
     var Router = Backbone.Router.extend({
