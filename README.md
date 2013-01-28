@@ -215,7 +215,7 @@ will be merged, minified and uglified.
 
 **Step 2** - Configuration
 
-Now you must will load main script like this:
+Now you must load your main script like this:
 ```html
 <script data-main="scripts/main" data-root="/backbone-boilerplate/dist/" src="scripts/main.js"></script>
 ```
