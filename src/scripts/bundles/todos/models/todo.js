@@ -1,3 +1,6 @@
+/*jslint regexp: true, nomen: true, sloppy: true */
+/*global requirejs, require, define */
+
 define(["jquery", "underscore", "backbone", "../collections/TodoList"], function ($, _, Backbone, TodosCollection) {
 
     'use strict';
@@ -6,7 +9,7 @@ define(["jquery", "underscore", "backbone", "../collections/TodoList"], function
     var Todo = Backbone.Model.extend({
 
         // Default attributes for the todo item.
-        defaults: function() {
+        defaults: function () {
             this.todos = new TodosCollection();
             return {
                 title: "empty todo...",
@@ -16,14 +19,14 @@ define(["jquery", "underscore", "backbone", "../collections/TodoList"], function
         },
 
         // Ensure that each todo created has `title`.
-        initialize: function() {
+        initialize: function () {
             if (!this.get("title")) {
                 this.set({"title": this.defaults().title});
             }
         },
 
         // Toggle the `done` state of this todo item.
-        toggle: function() {
+        toggle: function () {
             this.save({done: !this.get("done")});
         }
 
