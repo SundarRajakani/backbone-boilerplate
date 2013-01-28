@@ -1,4 +1,4 @@
-Backbone-Bloilerplate
+Backbone-Boilerplate
 ======
 created By Henrique Barroso
 
